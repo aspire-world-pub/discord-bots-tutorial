@@ -36,4 +36,6 @@ message.channel.sendFile(arr.url, 'neko.png')
 })
 ```
 
-Мы получим ![Image](https://xeval.ga/sc/dwhao2x.png)
+Мы получим 
+
+![Image](https://xeval.ga/sc/dwhao2x.png)
