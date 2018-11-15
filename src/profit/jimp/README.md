@@ -13,3 +13,5 @@
 
 >![Welcome](https://xeval.ga/sc/jtq34n5.png)
 >![Profile](https://xeval.ga/sc/w5h1f16.png)
+
+[Больше информации тут](https://www.npmjs.com/package/jimp)
