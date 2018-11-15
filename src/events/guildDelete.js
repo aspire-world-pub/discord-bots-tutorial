@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('guildDelte', (guild) => {
+client.on('guildDelete', (guild) => {
 console.log(`Я был удален с сервера ${guild.name}`)
 });
 
