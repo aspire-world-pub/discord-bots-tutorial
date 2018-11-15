@@ -7,8 +7,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if(message.author.bot) return; // А вот и сама проверка на бота.
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (message.content === 'ping') {
+    message.reply('Pong!');
   }
 });
 
