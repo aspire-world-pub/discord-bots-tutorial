@@ -1,7 +1,7 @@
 # Сообщения
 ## Есть несколько методов отправки сообщений, и каждый из них работает по своему.
 
-### send
+> ### send
 Отправляет в калан простое сообщение.
 
 ```js
@@ -17,14 +17,14 @@ let str = 'очень длиное сообщение, например кана
 message.channel.send(str, {split: "\n"}) // отправит в текущий канал сообщение "Hello!"
 ```
 
-### sendFile
+> ### sendFile
 Отправляет в канал сообщение с файлом.
 
 ```js
 message.channel.sendFile(message.author.avatarURL, 'avatar.png') // отправит в текущий канал аватар автора
 ```
 
-### sendEmbed
+> ### sendEmbed
 Отправляет в канал embed сообщение.
 
 ```js
@@ -36,4 +36,4 @@ color: 4151834
 ```
 Мы получим следуйщие
 
-![embed](https://xeval.ga/sc/51ghjca.png)
+> ![embed](https://xeval.ga/sc/51ghjca.png)
