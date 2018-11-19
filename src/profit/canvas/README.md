@@ -55,4 +55,7 @@ loadImage('http://barbmayer.com/images/backgrounds/aura-background-large-1.jpg')
   ctx.drawImage(image, 50, 0, 70, 70)
     const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
   message.channel.send(attachment )
-})```
+})
+``` 
+
+На этом пока все.
