@@ -30,6 +30,9 @@ return new Canvas(600, 300) // Создание обьекта, при созд�
 
 message.channel.sendFile(shablon())
 ```
+Мы получим 
+
+![Image](https://cdn.discordapp.com/attachments/481773525426765824/513995594390437898/file.jpg)
 
 Пример с текстом, картинкой и поворотом.
 
@@ -57,5 +60,7 @@ loadImage('http://barbmayer.com/images/backgrounds/aura-background-large-1.jpg')
   message.channel.send(attachment )
 })
 ``` 
+
+![Image](https://cdn.discordapp.com/attachments/481773525426765824/513993474123628555/welcome-image.png)
 
 На этом пока все.
