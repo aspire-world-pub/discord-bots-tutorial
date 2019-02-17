@@ -57,4 +57,4 @@ Field вмещают в себя больше всего информации т
 ```
 ![image](http://skrinshoter.ru/i/170219/HEn1AqEI.png)
 
-Подробнее на (документации)[https://discord.js.org/]
+Подробнее на [документации](https://discord.js.org/)
