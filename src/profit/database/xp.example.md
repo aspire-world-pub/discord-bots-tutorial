@@ -43,3 +43,19 @@ client.on('message', async message => {
 });
 	   
 })
+```
+
+## Самый обычный профиль
+
+```js
+con.query(`SELECT FROM users WHERE id = '${message.author.id}'`, (err, rows) =>{
+if(rows[0]) return message.channel.send("Аккаунт не найден.");
+let embed = new Discord.RichEmbed()
+.setTitle(message.author.username+'\'s profile')
+.setColor('RANDOM')
+.addField('XP', rows[0].xp, true)
+.addField('lvl', rows[0].lvl, true)
+.addField('money', rows[0].money, true)
+message.channel.send(embed)
+})
+```
